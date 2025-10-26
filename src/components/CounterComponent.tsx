@@ -13,7 +13,7 @@ const styleBox = {
     border: "1px solid #333",
     padding: "10px",
     backgroundColor: "#f9f9f9",
-    float: "left"
+    float: "left" as const
 };
 
 const CounterComponent: React.FC<CounterProps> = ({ title, counterId }) => {

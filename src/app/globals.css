@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 :root {
   --background: #ffffff;
@@ -21,12 +21,24 @@ body {
   margin: 10px auto;
   max-width: 1200px;
 }
+nav {
+  margin-bottom: 20px;
+  background-color: azure;
+  padding: 10px;
+}
 nav a{
+
   font-size: 20px;
+  color: green;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
 }
 nav a:hover{
-  color: yellow;
+  text-decoration: underline;
+  cursor: pointer;
 }
 ul li a{
   background-color: aqua;
+
 }

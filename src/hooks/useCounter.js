@@ -4,7 +4,7 @@ export function useCounter(initialValue = 0) {
     const [count, setCount] = useState(initialValue);
 
     useEffect(() => {
-        setCount(initialValue);    
+        setCount(initialValue);          
     }, [initialValue]);
 
     // Dùng functional update để tránh stale closures
